@@ -12,7 +12,7 @@ module.exports = {
   },
   production: {
     url: config.dbUrl,
-    dialect: config.dbEngine,
+    dialect: 'postgres',
     dialectOptions: {
       ssl : {
         require: true,
